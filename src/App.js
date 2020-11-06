@@ -3,8 +3,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'antd/dist/antd.css';
-
-import Refs from './components/refs/index';
+import Portal from './components/Portal/index'
 
 class App extends React.Component {
     constructor (props) {
@@ -13,7 +12,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <Refs><div>1</div></Refs>
+                <Portal></Portal>
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                 </header>
