@@ -3,7 +3,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'antd/dist/antd.css';
-import Portal from './components/Portal/index'
+import RenderProps from './components/renderProps/index'
 
 class App extends React.Component {
     constructor (props) {
@@ -12,10 +12,10 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <Portal></Portal>
-                <header className="App-header">
+                <RenderProps></RenderProps>
+                {/* <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
-                </header>
+                </header> */}
             </div>
         )
     }
